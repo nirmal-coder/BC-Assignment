@@ -1,0 +1,815 @@
+[
+  {
+    "id": "nirmalKumar",
+    "name": "Nirmal Kumar",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": true,
+      "imgUrl": "https://res.cloudinary.com/doov17zaw/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1701791137/My%20photo/Picsart_23-09-29_13-53-13-685_eyq3xz.jpg"
+    },
+    "timeSinceSent": 0,
+    "chats": [
+      {
+        "id": "introToBeyondChats",
+        "topic": "React.js Developer Internship Submission",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "Hello BeyondChats 👋, I’m Nirmal — here with my assignment submission and a whole lot of excitement!"
+          },
+          {
+            "sender": "agent",
+            "text": "Hi Nirmal! 👋 We're thrilled to hear from you. What would you like to share with us today?",
+            "response": {
+              "aiResponse": "Thanks for reaching out! What would you like to show us today?",
+              "rephrase": "It's great to hear from you! What would you like to share today?",
+              "myToneOfVoice": "Hey there! Can’t wait to see what you’ve built 🚀",
+              "moreFriendly": "Hey Nirmal! We’re excited 😄 Show us what you’ve got!",
+              "moreFormal": "Thank you for your message. Please proceed with the submission details.",
+              "fixGrammar": "Hi Nirmal! We’re excited to hear from you. What would you like to share today?",
+              "translate": {
+                "tamil": "வணக்கம் நிர்மல்! இன்று நீங்கள் எதை பகிர விரும்புகிறீர்கள்?",
+                "telugu": "హాయ్ నిర్మల్! మీరు ఈ రోజు మాతో ఏమి పంచుకోవాలనుకుంటున్నారు?",
+                "malayalam": "ഹായ് നിർമ്മല്‍! ഇന്ന് നിങ്ങൾ എന്താണ് പങ്കുവെക്കാൻ ആഗ്രഹിക്കുന്നത്?",
+                "hindi": "नमस्ते निर्मल! आप आज हमारे साथ क्या साझा करना चाहेंगे?",
+                "kannada": "ಹಾಯ್ ನಿರ್ಮಲ್! ನೀವು ಇಂದು ನಮಜೊತೆ ಏನು ಹಂಚಿಕೊಳ್ಳಲು ಇಚ್ಛಿಸುತ್ತೀರಿ?"
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Here’s my assignment for the React.js Developer role. I’ve recreated your demo interface with a strong focus on clean UI, responsive design, and delightful micro-interactions. And yes — AI tone variations included 😉 . 🛠️ Built With:\n- React 18\n- Context API\n- Framer Motion\n- TailwindCSS\n- React Router DOM"
+          },
+          {
+            "sender": "agent",
+            "text": "Awesome tech stack! Have you hosted the project somewhere?",
+            "response": {
+              "aiResponse": "Where can we view your project live?",
+              "rephrase": "Great choice of tools! Do you have a live demo we can check out?",
+              "myToneOfVoice": "That’s a killer stack! Got a link we can check out?",
+              "moreFriendly": "Wow, that stack sounds awesome! Where can we play with your app? 😄",
+              "moreFormal": "Could you please share the deployment and repository links?",
+              "fixGrammar": "Impressive tech stack! Have you hosted your project online?",
+              "translate": {
+                "tamil": "அற்புதமான தொழில்நுட்ப தொகுப்பு! நீங்கள் இந்த திட்டத்தை எங்கே ஹோஸ்ட் செய்துள்ளீர்கள்?",
+                "telugu": "గొప్ప టెక్ స్టాక్! మీరు ప్రాజెక్ట్‌ను ఎక్కడ హోస్ట్ చేశారు?",
+                "malayalam": "ശാന്ദാരമായ ടെക്ക് സ്റ്റാക്ക്! നിങ്ങൾ ഈ പ്രോജക്ട് എവിടെയാണ് ഹോസ്റ്റുചെയ്തത്?",
+                "hindi": "क्या आपने इस प्रोजेक्ट को कहीं होस्ट किया है?",
+                "kannada": "ಅದ್ಭುತ ತಂತ್ರಜ್ಞಾನ ಸಂಗ್ರಹ! ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಎಲ್ಲಿ ಹಾಕಿದ್ದೀರಿ?"
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "🔗 Absolutely! Here are the details:\n🌐 [Live Site](https://beyondchat-demo.netlify.app)"
+          },
+          {
+            "sender": "agent",
+            "text": "Brilliant! Anything else you’d like to highlight?",
+            "response": {
+              "aiResponse": "Anything else you'd like to share?",
+              "rephrase": "Would you like to mention any other features or details?",
+              "myToneOfVoice": "You’ve got the floor! Anything cool we shouldn’t miss?",
+              "moreFriendly": "Don't hold back! 😄 Got anything else to show us?",
+              "moreFormal": "Is there any additional information you'd like to provide?",
+              "fixGrammar": "Great! Is there anything else you'd like to highlight?",
+              "translate": {
+                "tamil": "பிரமாண்டம்! மேலும் எதையாவது சிறப்பாகக் கூற விரும்புகிறீர்களா?",
+                "telugu": "అద్భుతం! మీరు హైలైట్ చేయాలనుకునే మరేదైనా ఉందా?",
+                "malayalam": "അമ്പതായിരം! പറയാൻ ബാക്കിയുള്ളത് ഏതെങ്കിലും ഉണ്ടോ?",
+                "hindi": "बहुत बढ़िया! क्या और कुछ है जिसे आप हाईलाइट करना चाहेंगे?",
+                "kannada": "ಅದ್ಭುತ! ನೀವು ಹೆಚ್ಚಿನದನ್ನು ಹೈಲೈಟ್ ಮಾಡಬೇಕೆಂದು ಬಯಸುವೆಯೆ?"
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "💡 I designed the UI to adapt across devices, added subtle transitions, and included a ‘Related Articles’ section that dynamically showcases AI responses and resources (like this one👇)."
+          }
+        ],
+        "showRelatedArt": true,
+        "suggestionQuestionForCopilot": "Tell me more about your projects and profile",
+        "relatedArticles": [
+          {
+            "id": "link1",
+            "title": "Connect on LinkedIn",
+            "summary": "View my professional profile, certifications, and recent posts.",
+            "link": "https://www.linkedin.com/in/nirmal-kumarv/"
+          },
+          {
+            "id": "link4",
+            "title": "GymFluencer Landing Page",
+            "summary": "portfolio",
+            "link": "https://gymfluencernirmal.netlify.app/"
+          },
+          {
+            "id": "link2",
+            "title": "My GitHub",
+            "summary": "See the code behind my projects, forks, and contributions.",
+            "link": "https://github.com/nirmal-coder"
+          },
+          {
+            "id": "link3",
+            "title": "Portfolio",
+            "summary": "portfolio",
+            "link": "https://nirmalkumar12portfolio.netlify.app/"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "userOne",
+    "name": "Kumar",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": true,
+      "imgUrl": "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    "timeSinceSent": 5,
+    "chats": [
+      {
+        "id": "questionOne",
+        "topic": "Billing Issue - Double Charge",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "Hi, I was charged twice for my subscription this month. Can you help me with a refund?"
+          },
+          {
+            "sender": "agent",
+            "text": "I'm sorry to hear that. Let me check your billing details and get back to you shortly.",
+            "response": {
+              "aiResponse": "Apologies for the inconvenience. I’ll review your billing records now.",
+              "rephrase": "I regret the inconvenience. I'll examine your billing details right away.",
+              "myToneOfVoice": "Oops! That doesn’t sound right. Let me sort it out for you.",
+              "moreFriendly": "Hang tight! I’ll check your billing info and fix this 😊",
+              "moreFormal": "I apologize for the inconvenience. I will investigate your billing records promptly.",
+              "fixGrammar": "Let me check your billing details and get back to you.",
+              "translate": {
+                "tamil": "மன்னிக்கவும். உங்கள் பில்லிங் விவரங்களை சரிபார்த்து விரைவில் பதில் அளிக்கிறேன்.",
+                "telugu": "క్షమించండి. మీ బిల్లింగ్ వివరాలను తనిఖీ చేసి త్వరలో స్పందిస్తాను.",
+                "malayalam": "ക്ഷമിക്കണം. ഞാൻ നിങ്ങളുടെ ബില്ലിംഗ് വിവരങ്ങൾ പരിശോധിച്ച് ഉടൻ അറിയിക്കും.",
+                "hindi": "माफ़ कीजिए। मैं आपके बिलिंग विवरण की जांच कर जल्द उत्तर दूंगा।",
+                "kannada": "ಕ್ಷಮಿಸಿ. ನಾನು ನಿಮ್ಮ ಬಿಲ್ಲಿಂಗ್ ವಿವರಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ತಕ್ಷಣ ಉತ್ತರಿಸುತ್ತೇನೆ."
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Sure, please let me know what you find."
+          },
+          {
+            "sender": "agent",
+            "text": "Thanks for waiting. I can confirm the duplicate charge. I’ve initiated your refund—it will reflect within 5–7 business days.",
+            "response": {
+              "aiResponse": "Confirmed duplicate payment. Refund started, expect it in 5–7 business days.",
+              "rephrase": "The double billing has been verified. A refund is being processed.",
+              "myToneOfVoice": "Good catch! The refund is rolling out — check back in a few days!",
+              "moreFriendly": "You were totally right! Refund’s on its way — expect it soon 😊",
+              "moreFormal": "The duplicate charge has been verified and a refund has been initiated. It should reflect within 5–7 days.",
+              "fixGrammar": "I can confirm the duplicate charge. I’ve initiated your refund—it will reflect within 5–7 business days.",
+              "translate": {
+                "tamil": "இருமுறை கட்டணமாக்கல் உறுதிப்படுத்தப்பட்டது. மீள்மீட்பு தொடங்கப்பட்டுள்ளது.",
+                "telugu": "రెండు సార్లు ఛార్జ్ అయినట్టు ధృవీకరించబడింది. రీఫండ్ ప్రారంభించబడింది.",
+                "malayalam": "ഇരട്ട ചാർജ് സ്ഥിരീകരിച്ചു. റീഫണ്ട് ആരംഭിച്ചിരിക്കുന്നു.",
+                "hindi": "दोहरा शुल्क पुष्टि किया गया है। रिफंड शुरू कर दिया गया है।",
+                "kannada": "ಇರುವಷ್ಟು ಶುಲ್ಕ ದೃಢಪಡಿಸಲಾಗಿದೆ. ಮರುಪಾವತಿ ಪ್ರಾರಂಭಿಸಲಾಗಿದೆ."
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Great, thanks for your help!"
+          }
+        ],
+        "showRelatedArt": false,
+        "suggestionQuestionForCopilot": "Refund for duplicate charge",
+        "relatedArticles": [
+          {
+            "id": "art1",
+            "title": "How to Request a Refund",
+            "summary": "Step-by-step process to request a refund from the billing section.",
+            "link": "/help-center/refund-process"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "userTwo",
+    "name": "Aarav Mehta",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": false
+    },
+    "timeSinceSent": 120,
+    "chats": [
+      {
+        "id": "questionTwo",
+        "topic": "Login Problem - Password Reset",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "I forgot my password and can’t access my account."
+          },
+          {
+            "sender": "agent",
+            "text": "No worries! I’ll help you reset your password.",
+            "response": {
+              "aiResponse": "Let's get you back in! Initiating password reset now.",
+              "rephrase": "I'll assist you with a password reset right away.",
+              "myToneOfVoice": "Oops! Happens to the best of us. Let’s reset it quick!",
+              "moreFriendly": "Let’s fix that! I’ll help you reset it 😊",
+              "moreFormal": "I'll assist you in resetting your password immediately.",
+              "fixGrammar": "I'll help you reset your password.",
+              "translate": {
+                "tamil": "கவலைப்படாதீர்கள்! உங்கள் கடவுச்சொல்லை மீட்டமைக்க உதவுகிறேன்.",
+                "telugu": "చింతించకండి! మీ పాస్‌వర్డ్‌ను రీసెట్ చేయడంలో సహాయపడతాను.",
+                "malayalam": "ഭയപ്പെടേണ്ട! ഞങ്ങൾ പാസ്‌വേഡ് പുനഃസജ്ജമാക്കും.",
+                "hindi": "चिंता न करें! मैं आपका पासवर्ड रीसेट करने में मदद करूंगा।",
+                "kannada": "ಚಿಂತೆ ಬೇಡ! ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸುತ್ತೇನೆ."
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Thanks, I’ve received the email and changed it."
+          },
+          {
+            "sender": "agent",
+            "text": "Great! Your password is updated successfully.",
+            "response": {
+              "aiResponse": "You're all set! Password reset complete.",
+              "rephrase": "Your password has been changed successfully.",
+              "myToneOfVoice": "Awesome! You’re back in the game! 💪",
+              "moreFriendly": "Woohoo! Password’s updated. You’re good to go 😊",
+              "moreFormal": "Your password update has been processed successfully.",
+              "fixGrammar": "Your password has been updated successfully.",
+              "translate": {
+                "tamil": "உங்கள் கடவுச்சொல் வெற்றிகரமாக புதுப்பிக்கப்பட்டது!",
+                "telugu": "మీ పాస్‌వర్డ్ విజయవంతంగా మార్చబడింది!",
+                "malayalam": "നിങ്ങളുടെ പാസ്‌വേഡ് വിജയകരമായി പുതുക്കി!",
+                "hindi": "आपका पासवर्ड सफलतापूर्वक बदल दिया गया है!",
+                "kannada": "ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ!"
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Actually, now I can't log in from the mobile app."
+          },
+          {
+            "sender": "agent",
+            "text": "Let's check that out. Have you updated the app recently?",
+            "response": {
+              "aiResponse": "I'll help you troubleshoot the mobile login issue.",
+              "rephrase": "Have you updated your app to the latest version?",
+              "myToneOfVoice": "Let’s figure this out together! Is your app up to date?",
+              "moreFriendly": "Hmm, let’s fix that! Maybe try updating the app?",
+              "moreFormal": "Please confirm whether you have updated the app recently.",
+              "fixGrammar": "Have you recently updated the app?",
+              "translate": {
+                "tamil": "அண்மையில் உங்கள் செயலியைப் புதுப்பித்தீர்களா?",
+                "telugu": "మీరు ఇటీవల యాప్‌ను అప్‌డేట్ చేశారా?",
+                "malayalam": "നിങ്ങൾ അടുത്തിടെ ആപ്പ് അപ്ഡേറ്റ് ചെയ്തോ?",
+                "hindi": "क्या आपने हाल ही में ऐप अपडेट किया है?",
+                "kannada": "ನೀವು ಇತ್ತೀಚೆಗೆ ಆ್ಯಪ್ ನವೀಕರಿಸಿದ್ದೀರಾ?"
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "No, I haven’t updated it yet."
+          },
+          {
+            "sender": "agent",
+            "text": "Please update the app and try logging in again. That usually fixes it.",
+            "response": {
+              "aiResponse": "App updates can fix login issues. Give it a try!",
+              "rephrase": "Try updating the app and log in again.",
+              "myToneOfVoice": "Quick fix: update the app and see if that works!",
+              "moreFriendly": "Let’s give that app a fresh start with an update 🚀",
+              "moreFormal": "Kindly update the application and retry the login process.",
+              "fixGrammar": "Update the app and try logging in again.",
+              "translate": {
+                "tamil": "தயவுசெய்து செயலியைப் புதுப்பித்து மீண்டும் உள்நுழைய முயற்சிக்கவும்.",
+                "telugu": "దయచేసి యాప్‌ను అప్‌డేట్ చేసి మళ్లీ లాగిన్ ప్రయత్నించండి.",
+                "malayalam": "ദയവായി ആപ്പ് അപ്ഡേറ്റ് ചെയ്ത് വീണ്ടും ലോഗിൻ ചെയ്യാൻ ശ്രമിക്കുക.",
+                "hindi": "कृपया ऐप अपडेट करें और फिर से लॉग इन करने का प्रयास करें।",
+                "kannada": "ದಯವಿಟ್ಟು ಆ್ಯಪ್ ನವೀಕರಿಸಿ ಮತ್ತು ಮತ್ತೆ ಲಾಗಿನ್ ಮಾಡುವ ಪ್ರಯತ್ನ ಮಾಡಿ."
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Awesome, that worked! I'm in now."
+          },
+          {
+            "sender": "agent",
+            "text": "Glad it worked! Let me know if there’s anything else you need.",
+            "response": {
+              "aiResponse": "Great to hear! I’m here if you need more help.",
+              "rephrase": "Happy to hear that worked! Need any more help?",
+              "myToneOfVoice": "Yay, success! Ping me if you hit another bump 😊",
+              "moreFriendly": "Awesome stuff! I’m right here if you need anything else 🎉",
+              "moreFormal": "I’m pleased it worked. Please let me know if further assistance is required.",
+              "fixGrammar": "I'm glad it worked. Let me know if you need more help.",
+              "translate": {
+                "tamil": "அருமை! வேறு ஏதேனும் உதவிக்குத் தேவையா?",
+                "telugu": "బాగుంది! ఇంకేమైనా సహాయం కావాలా?",
+                "malayalam": "അറിഞ്ഞതിൽ സന്തോഷം! മറ്റേതെങ്കിലും സഹായം വേണോ?",
+                "hindi": "अच्छा लगा सुनकर! क्या और कुछ चाहिए?",
+                "kannada": "ಅದು ಕೆಲಸ ಮಾಡಿದ Hearing It’s Worked! ಇನ್ನೂ ಏನಾದರೂ ಬೇಕಾದರೆ ಹೇಳಿ."
+              }
+            }
+          }
+        ],
+        "suggestionQuestionForCopilot": "Reset my account password",
+        "relatedArticles": [
+          {
+            "id": "art4",
+            "title": "Resetting Your Password",
+            "summary": "How to securely reset your password using your email.",
+            "link": "/help-center/reset-password"
+          },
+          {
+            "id": "art5",
+            "title": "Login Troubleshooting",
+            "summary": "Common login problems and how to solve them.",
+            "link": "/help-center/login-issues"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "userThree",
+    "name": "Sneha Reddy",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": true,
+      "imgUrl": "https://blog.photofeeler.com/wp-content/uploads/2017/02/flattering-pose-profile-pics.jpeg"
+    },
+    "timeSinceSent": 780,
+    "chats": [
+      {
+        "id": "questionThree",
+        "topic": "Change Subscription Plan",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "Can I switch to a yearly subscription instead of monthly?"
+          },
+          {
+            "sender": "agent",
+            "text": "Yes, you can change your plan anytime.",
+            "response": {
+              "aiResponse": "Absolutely! Switching plans is quick and easy.",
+              "rephrase": "Sure, you may upgrade to a yearly plan at any time.",
+              "myToneOfVoice": "Totally doable! Let’s set up your yearly plan.",
+              "moreFriendly": "Of course! Switching to yearly is a great choice 😊",
+              "moreFormal": "You are eligible to change to a yearly subscription at your convenience.",
+              "fixGrammar": "Yes, you can change your plan anytime.",
+              "translate": {
+                "tamil": "ஆம், நீங்கள் உங்கள் திட்டத்தை எந்த நேரமும் மாற்றலாம்.",
+                "telugu": "అవును, మీరు మీ ప్లాన్‌ను ఎప్పుడైనా మార్చవచ్చు.",
+                "malayalam": "അതെ, നിങ്ങൾക്ക് പ്ലാൻ എപ്പോഴും മാറ്റാൻ കഴിയും.",
+                "hindi": "जी हां, आप कभी भी अपना प्लान बदल सकते हैं।",
+                "kannada": "ಹೌದು, ನೀವು ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಬದಲಾಯಿಸಬಹುದು."
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Will I lose my data if I cancel my subscription?"
+          },
+          {
+            "sender": "agent",
+            "text": "No, your data will be saved even if you cancel.",
+            "response": {
+              "aiResponse": "Not at all! Your data remains safe after cancellation.",
+              "rephrase": "You won’t lose any data, even after cancelling.",
+              "myToneOfVoice": "No worries! Your info stays intact if you cancel.",
+              "moreFriendly": "Nope! We’ll keep your data safe, just in case you come back 😊",
+              "moreFormal": "Your data will remain securely stored following subscription cancellation.",
+              "fixGrammar": "No, your data will be saved even if you cancel.",
+              "translate": {
+                "tamil": "இல்லை, நீங்கள் சந்தாவை ரத்து செய்தாலும் உங்கள் தரவு பாதுகாக்கப்படும்.",
+                "telugu": "కాదు, మీరు సబ్‌స్క్రిప్షన్‌ను రద్దు చేసినా మీ డేటా భద్రంగా ఉంటుంది.",
+                "malayalam": "ഇല്ല, നിങ്ങൾ സബ്സ്ക്രിപ്ഷൻ റദ്ദാക്കിയാലും നിങ്ങളുടെ ഡാറ്റ സംരക്ഷിക്കപ്പെടും.",
+                "hindi": "नहीं, आपकी सदस्यता रद्द करने पर भी आपका डेटा सुरक्षित रहेगा।",
+                "kannada": "ಇಲ್ಲ, ನೀವು ಚಂದಾದಾರಿಕೆಯನ್ನು ರದ್ದುಮಾಡಿದರೂ ನಿಮ್ಮ ಡೇಟಾ ಉಳಿಯುತ್ತದೆ."
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "How can I update my payment method?"
+          },
+          {
+            "sender": "agent",
+            "text": "You can update it from your account settings.",
+            "response": {
+              "aiResponse": "Just head to your account settings to update it!",
+              "rephrase": "You can modify your payment method through the account settings page.",
+              "myToneOfVoice": "Easy! Just pop into settings and switch it up.",
+              "moreFriendly": "Sure thing! Go to settings and update your payment info 😊",
+              "moreFormal": "To update your payment method, please navigate to your account settings.",
+              "fixGrammar": "You can update it from your account settings.",
+              "translate": {
+                "tamil": "நீங்கள் உங்கள் கணக்கு அமைப்புகளில் இருந்து இதனை புதுப்பிக்கலாம்.",
+                "telugu": "మీరు మీ ఖాతా సెట్టింగ్‌ల నుండి దీన్ని నవీకరించవచ్చు.",
+                "malayalam": "നിങ്ങളുടെ അക്കൗണ്ട് ക്രമീകരണങ്ങളിൽ നിന്ന് നിങ്ങൾക്ക് ഇത് അപ്‌ഡേറ്റ് ചെയ്യാം.",
+                "hindi": "आप अपने खाता सेटिंग्स से इसे अपडेट कर सकते हैं।",
+                "kannada": "ನೀವು ನಿಮ್ಮ ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಂದ ಇದನ್ನು ನವೀಕರಿಸಬಹುದು."
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Can I pause my subscription instead of cancelling?"
+          },
+          {
+            "sender": "agent",
+            "text": "Yes, pausing your subscription is possible.",
+            "response": {
+              "aiResponse": "Absolutely, you can pause your subscription anytime.",
+              "rephrase": "You may opt to pause your subscription instead of canceling.",
+              "myToneOfVoice": "Totally! Hit pause anytime without losing your progress.",
+              "moreFriendly": "Of course! You can take a break and pause your plan 😊",
+              "moreFormal": "You have the option to temporarily pause your subscription at your discretion.",
+              "fixGrammar": "Yes, pausing your subscription is possible.",
+              "translate": {
+                "tamil": "ஆம், உங்கள் சந்தாவை இடைநிறுத்துவது சாத்தியமாகும்.",
+                "telugu": "అవును, మీ సబ్‌స్క్రిప్షన్‌ను తాత్కాలికంగా నిలిపివేయవచ్చు.",
+                "malayalam": "അതെ, നിങ്ങളുടെ സബ്സ്ക്രിപ്ഷൻ താൽക്കാലികമായി നിർത്താം.",
+                "hindi": "जी हां, आप अपनी सदस्यता को अस्थायी रूप से रोक सकते हैं।",
+                "kannada": "ಹೌದು, ನೀವು ನಿಮ್ಮ ಚಂದಾದಾರಿಕೆಯನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ನಿಲ್ಲಿಸಬಹುದು."
+              }
+            }
+          }
+        ],
+        "suggestionQuestionForCopilot": "Switch to yearly subscription",
+        "relatedArticles": [
+          {
+            "id": "art6",
+            "title": "Change Your Subscription",
+            "summary": "Steps to switch between monthly and yearly billing.",
+            "link": "/help-center/change-subscription"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "userFour",
+    "name": "Rohit Sharma",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": false
+    },
+    "timeSinceSent": 3600,
+    "chats": [
+      {
+        "id": "questionFour",
+        "topic": "Refund Status",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "I requested a refund last week. What's the status?"
+          },
+          {
+            "sender": "agent",
+            "text": "Let me check your request status.",
+            "response": {
+              "aiResponse": "Checking your refund request now.",
+              "rephrase": "I'll look into your refund request status.",
+              "myToneOfVoice": "Hang tight! I’ll check where your refund stands.",
+              "moreFriendly": "Let me peek into your refund request for you 😊",
+              "moreFormal": "I will now verify the status of your refund request.",
+              "fixGrammar": "Let me check your refund request status.",
+              "translate": {
+                "tamil": "உங்கள் மீள்மீட்பு நிலையைப் பார்க்கிறேன்.",
+                "telugu": "మీ రీఫండ్ స్టేటస్‌ను తనిఖీ చేస్తున్నాను.",
+                "malayalam": "നിങ്ങളുടെ റീഫണ്ട് സ്ഥിതി പരിശോധിക്കുന്നു.",
+                "hindi": "मैं आपके रिफंड की स्थिति जांच रहा हूँ।",
+                "kannada": "ನಾನು ನಿಮ್ಮ ಮರುಪಾವತಿ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸುತ್ತೇನೆ."
+              }
+            }
+          }
+        ],
+        "suggestionQuestionForCopilot": "Track my refund",
+        "relatedArticles": [
+          {
+            "id": "art7",
+            "title": "Track a Refund",
+            "summary": "Monitor your refund request and processing status.",
+            "link": "/help-center/refund-status"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "userFive",
+    "name": "Isha Verma",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": true,
+      "imgUrl": "https://img.freepik.com/premium-photo/young-girl-wearing-yellow-tshirt-smiling-facing-camera-empty-space-isolated-bright-yellow_74379-2763.jpg?semt=ais_hybrid&w=740"
+    },
+    "timeSinceSent": 7200,
+    "chats": [
+      {
+        "id": "questionFive",
+        "topic": "Email Notifications Not Received",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "I’m not receiving any emails from your service."
+          },
+          {
+            "sender": "agent",
+            "text": "Let me help you check your notification settings.",
+            "response": {
+              "aiResponse": "We'll make sure your email preferences are correct.",
+              "rephrase": "I’ll review your notification setup to identify any issues.",
+              "myToneOfVoice": "Let’s fix your inbox! Checking your notification settings.",
+              "moreFriendly": "Uh-oh! Let’s make sure our emails find you 😊",
+              "moreFormal": "I will inspect your email settings and troubleshoot accordingly.",
+              "fixGrammar": "Let me help you check your notification settings.",
+              "translate": {
+                "tamil": "உங்கள் அறிவிப்பு அமைப்புகளை சரிபார்க்கிறேன்.",
+                "telugu": "మీ నోటిఫికేషన్ సెట్టింగ్‌లను తనిఖీ చేస్తున్నాను.",
+                "malayalam": "ഞാൻ നിങ്ങളുടെ അറിയിപ്പ് ക്രമീകരണങ്ങൾ പരിശോധിക്കും.",
+                "hindi": "मैं आपके नोटिफिकेशन सेटिंग्स की जांच कर रहा हूँ।",
+                "kannada": "ನಾನು ನಿಮ್ಮ ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತೇನೆ."
+              }
+            }
+          }
+        ],
+        "suggestionQuestionForCopilot": "Fix email notification issue",
+        "relatedArticles": [
+          {
+            "id": "art8",
+            "title": "Managing Notification Settings",
+            "summary": "Customize how and when you receive notifications.",
+            "link": "/help-center/notifications"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "userSix",
+    "name": "Anaya Singh",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": true,
+      "imgUrl": "https://img.freepik.com/free-photo/portrait-optimistic-ethnic-curly-woman-has-pleasant-dialogue-conversation-smiles-happily-wars-yellow-sweatshirt_273609-39212.jpg?semt=ais_hybrid&w=740"
+    },
+    "timeSinceSent": 14400,
+    "chats": [
+      {
+        "id": "questionOne",
+        "topic": "Password Reset Assistance",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "Hi, I forgot my password. How can I reset it?"
+          },
+          {
+            "sender": "agent",
+            "text": "No worries! I’ve sent a password reset link to your email. Please check and follow the instructions.",
+            "response": {
+              "aiResponse": "Password reset link sent. Check your email.",
+              "rephrase": "You’ll receive a password reset email shortly.",
+              "myToneOfVoice": "Happens to the best of us! Just sent a reset link to your inbox 💌",
+              "moreFriendly": "Got you! Reset email is on its way 🚀",
+              "moreFormal": "A password reset link has been sent to your registered email address.",
+              "fixGrammar": "I’ve sent a password reset link to your email.",
+              "translate": {
+                "hindi": "पासवर्ड रीसेट लिंक आपके ईमेल पर भेज दिया गया है।",
+                "tamil": "உங்கள் மின்னஞ்சலுக்கு கடவுச்சொல் மீட்டமைப்பு இணைப்பு அனுப்பப்பட்டது.",
+                "malayalam": "നിങ്ങളുടെ ഇമെയിലിലേക്ക് പാസ്‌വേഡ് റീസെറ്റ് ലിങ്ക് അയച്ചിരിക്കുന്നു."
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Got it, thanks!"
+          }
+        ],
+        "suggestionQuestionForCopilot": "Reset forgotten password",
+        "relatedArticles": [
+          {
+            "id": "art1",
+            "title": "Resetting Your Password",
+            "summary": "Learn how to securely reset your password.",
+            "link": "/help-center/password-reset"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "userSeven",
+    "name": "Dev Joshi",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": false
+    },
+    "timeSinceSent": 86400,
+    "chats": [
+      {
+        "id": "questionOne",
+        "topic": "Request for Dark Mode Feature",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "Hey, do you guys have a dark mode option?"
+          },
+          {
+            "sender": "agent",
+            "text": "Thanks for the suggestion! Dark mode is on our roadmap. We’ll notify you once it’s available.",
+            "response": {
+              "aiResponse": "Dark mode is being planned. We'll notify when it’s launched.",
+              "rephrase": "We’re considering adding dark mode in an upcoming update.",
+              "myToneOfVoice": "Nice call! Dark mode is on our radar 🌒 Stay tuned!",
+              "moreFriendly": "Cool idea! We're working on it and will keep you posted 😎",
+              "moreFormal": "Your suggestion has been noted. We’ll inform you once dark mode is released.",
+              "fixGrammar": "Dark mode is on our roadmap. We’ll notify you once it’s available.",
+              "translate": {
+                "hindi": "डार्क मोड हमारी योजना में है। उपलब्ध होने पर आपको सूचित करेंगे।"
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Looking forward to it!"
+          }
+        ],
+        "suggestionQuestionForCopilot": "Suggest new feature (dark mode)",
+        "relatedArticles": [
+          {
+            "id": "art1",
+            "title": "How We Prioritize Feature Requests",
+            "summary": "Understand how we choose what to build next.",
+            "link": "/help-center/feature-request-process"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "userEight",
+    "name": "Pooja Nair",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": true,
+      "imgUrl": "https://play-lh.googleusercontent.com/3Fsib84emmZzNBKV0baMOEtK3lIwqTvxaw_0m6dMWJbtf0d6yirIx6vgvbi6KiqI7qk=w526-h296-rw"
+    },
+    "timeSinceSent": 172800,
+    "chats": [
+      {
+        "id": "questionOne",
+        "topic": "Cancel My Subscription",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "Hi, I want to cancel my subscription. What’s the process?"
+          },
+          {
+            "sender": "agent",
+            "text": "I’m sorry to see you go! I’ve canceled your subscription effective immediately. You’ll have access till the end of your billing cycle.",
+            "response": {
+              "aiResponse": "Subscription canceled. Access continues till billing cycle ends.",
+              "rephrase": "Your subscription has been successfully canceled.",
+              "myToneOfVoice": "Done and done! We’ll miss you — but your access continues till your plan ends 🥲",
+              "moreFriendly": "Cancelled! But hey, you still have access till your cycle ends 👍",
+              "moreFormal": "Your cancellation has been processed. You will retain access until the end of your billing period.",
+              "fixGrammar": "I’ve canceled your subscription effective immediately.",
+              "translate": {
+                "tamil": "உங்கள் சந்தா ரத்து செய்யப்பட்டது. பில்லிங் சுழற்சி முடியும் வரை அணுகல் தொடரும்."
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Thanks. That helps!"
+          }
+        ],
+        "suggestionQuestionForCopilot": "Cancel paid subscription",
+        "relatedArticles": [
+          {
+            "id": "art1",
+            "title": "How to Cancel a Subscription",
+            "summary": "Steps to cancel your active subscription easily.",
+            "link": "/help-center/cancel-subscription"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "userNine",
+    "name": "Yusuf Khan",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": true,
+      "imgUrl": "https://img.freepik.com/premium-photo/boss-man-looking-camera-smiling-young-businessman-banker-with-beard-photo-with-close-up-portrait_321831-5908.jpg?semt=ais_hybrid&w=740"
+    },
+    "timeSinceSent": 604800,
+    "chats": [
+      {
+        "id": "questionOne",
+        "topic": "Payment Failure",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "I tried to make a payment but it failed. Can you help?"
+          },
+          {
+            "sender": "agent",
+            "text": "Sure! Sometimes this happens due to a network or card issue. Can you try again with a different method or browser?",
+            "response": {
+              "aiResponse": "Payment failed. Try a different browser or card.",
+              "rephrase": "Please attempt the payment again using a different method.",
+              "myToneOfVoice": "Oops! That’s annoying. Try another card or browser — let’s get this sorted 🛠️",
+              "moreFriendly": "Payment glitch! Try once more with a new method 🙌",
+              "moreFormal": "Your payment attempt did not go through. Kindly try again using an alternate payment method.",
+              "fixGrammar": "Can you try again with a different method or browser?",
+              "translate": {
+                "hindi": "कृपया किसी अन्य ब्राउज़र या भुगतान विधि से पुनः प्रयास करें।"
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "It worked on my phone. Thanks!"
+          }
+        ],
+        "suggestionQuestionForCopilot": "Payment failed during checkout",
+        "relatedArticles": [
+          {
+            "id": "art1",
+            "title": "Troubleshooting Payment Failures",
+            "summary": "Why payments fail and how to fix them.",
+            "link": "/help-center/payment-issues"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "userTen",
+    "name": "Meera Raj",
+    "isChatOpened": false,
+    "profilePic": {
+      "isPresent": false
+    },
+    "timeSinceSent": 432000,
+    "chats": [
+      {
+        "id": "questionOne",
+        "topic": "Page Not Loading Bug",
+        "messages": [
+          {
+            "sender": "user",
+            "text": "The dashboard page isn’t loading for me. Is this a bug?"
+          },
+          {
+            "sender": "agent",
+            "text": "Thanks for reporting. We’re checking this now. Can you clear cache or try incognito mode while we investigate?",
+            "response": {
+              "aiResponse": "We're investigating. Try clearing cache or use incognito mode.",
+              "rephrase": "We’re looking into this. Meanwhile, try using a private window.",
+              "myToneOfVoice": "Ah, tech gremlins! We’re on it. Clear your cache and try again 🚀",
+              "moreFriendly": "Got it! We’re checking — meanwhile, incognito might do the trick 🔍",
+              "moreFormal": "We have escalated the issue. Please try clearing your browser cache or accessing via incognito mode.",
+              "fixGrammar": "Can you clear cache or try incognito mode while we investigate?",
+              "translate": {
+                "malayalam": "ഞങ്ങൾ പരിശോധിച്ചുകൊണ്ടിരിക്കുന്നു. താൽക്കാലികമായി കാഷെ ക്ളിയർ ചെയ്യുകയോ ഇൻ‌കോഗ്‌നിറ്റോ ഉപയോഗിക്കുകയോ ചെയ്യുക."
+              }
+            }
+          },
+          {
+            "sender": "user",
+            "text": "Incognito worked. Thanks!"
+          }
+        ],
+        "suggestionQuestionForCopilot": "Dashboard not loading issue",
+        "relatedArticles": [
+          {
+            "id": "art1",
+            "title": "Fixing Dashboard Loading Issues",
+            "summary": "Common fixes if your dashboard doesn't load.",
+            "link": "/help-center/dashboard-load-issues"
+          }
+        ]
+      }
+    ]
+  }
+]

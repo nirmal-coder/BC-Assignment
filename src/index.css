@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+  overflow: hidden;
+}
+
+/* 3. Reset anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 4. Images and media */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 5. Form elements */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* 6. Buttons */
+button {
+  cursor: pointer;
+}
+
+/* 7. Lists */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 8. Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+select,
+option {
+  cursor: pointer;
+}
+.scroll-container {
+  overflow-y: scroll; /* Enables vertical scroll */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
