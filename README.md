@@ -98,7 +98,7 @@ Fully visible fixed sidebars on large screens for optimal workspace.
 
 Users can switch between different tones — Friendly, Formal, Rephrased, Native Language.
 
-![AI Tone Responses](https://your-image-hosting.com/tone-options.png)
+![AI Tone Responses](/public/AI%20Response%20Variants.png)
 
 ---
 
@@ -106,7 +106,7 @@ Users can switch between different tones — Friendly, Formal, Rephrased, Native
 
 Supports Tamil, Telugu, Malayalam, Hindi, and Kannada translations.
 
-![Translations](https://your-image-hosting.com/translation-support.png)
+![Translations](/public/translate.png)
 
 ---
 
@@ -114,7 +114,7 @@ Supports Tamil, Telugu, Malayalam, Hindi, and Kannada translations.
 
 Related articles dynamically show links like GitHub, LinkedIn, and portfolio.
 
-![Related Articles](https://your-image-hosting.com/related-articles.png)
+![Related Articles](/public/Related%20Articles.png)
 
 ---
 
@@ -122,7 +122,7 @@ Related articles dynamically show links like GitHub, LinkedIn, and portfolio.
 
 Agent messages appear with typing effect and hover micro-interactions.
 
-![Chat Flow Animation](https://your-image-hosting.com/chat-flow.gif)
+![Chat Flow Animation](/public/Ai%20simulation.png)
 
 ---
 
