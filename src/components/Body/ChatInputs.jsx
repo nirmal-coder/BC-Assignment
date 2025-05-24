@@ -137,7 +137,7 @@ const ChatInputs = () => {
 
   return (
     <>
-      <div className="w-11/12 mx-auto absolute bottom-[10px] left-[16px] right-[16px] shadow-lg rounded-lg bg-white p-3 border-2 border-gray-200">
+      <div className="w-11/12 mx-auto absolute bottom-[35px] left-[16px] right-[16px] shadow-lg rounded-lg bg-white p-3 border-2 border-gray-200">
         <div className="w-full flex justify-between gap-x-3 items-center">
           <div className="flex gap-x-3 items-center">
             <MdMessage />

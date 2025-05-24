@@ -9,7 +9,7 @@
   padding: 0;
 }
 :root {
-  --safe-bottom: env(safe-area-inset-bottom);
+  --safe-bottom: env(safe-area-inset-bottom, 20px);
 }
 html,
 body {
