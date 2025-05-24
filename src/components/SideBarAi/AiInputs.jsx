@@ -56,7 +56,7 @@ const AiInputs = () => {
   };
 
   return (
-    <div className="bg-transparent w-[90%] flex justify-center absolute bottom-[60px] left-3 right-3 shadow-sm gap-y-3 border-2 rounded-lg border-gray-200">
+    <div className="bg-transparent w-[90%] flex justify-center shadow-sm gap-y-3 border-2 rounded-lg border-gray-200 mb-5">
       <div className="h-12  w-full flex justify-between items-center shadow-lg bg-white rounded-lg">
         <input
           type="text"

@@ -10,7 +10,7 @@ const Body = () => {
   const { status } = activeId;
 
   return (
-    <div className="w-screen h-screen relative">
+    <div className="w-screen h-screen-dvh flex flex-col justify-between">
       <BodyHeader />
       {status === "not-seleted" ? (
         <div className="scroll-container w-full h-screen flex justify-center items-center">

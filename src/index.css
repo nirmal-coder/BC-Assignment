@@ -13,7 +13,7 @@
 }
 html,
 body {
-  height: 100dvh;
+  height: 100vh;
   font-family: system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -73,7 +73,7 @@ option {
   cursor: pointer;
 }
 .scroll-container {
-  overflow-y: scroll; /* Enables vertical scroll */
+  overflow-y: auto; /* Enables vertical scroll */
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
 }

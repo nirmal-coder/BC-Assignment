@@ -1,6 +1,5 @@
 import { useActiveChat } from "../../context/ActiveChatContext";
 import { HiOutlineBars3BottomLeft } from "react-icons/hi2";
-import { HiOutlineDotsHorizontal } from "react-icons/hi";
 import { MdCall } from "react-icons/md";
 import aiImage from "../../assets/ai-logo.png";
 
