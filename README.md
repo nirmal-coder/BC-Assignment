@@ -22,19 +22,19 @@ Here’s a quick look at the app in action:
 
 ## ✅ Live Demo
 
-🌐 [Live Website](https://your-deployment-url.netlify.app)
+🌐 [Live Website](https://bc-assignment.netlify.app/)
 
 ---
 
 ## 📂 Repository
 
-📁 [GitHub Repo](https://github.com/your-username/beyondchats-assignment)
+📁 [GitHub Repo](https://github.com/nirmal-coder/BC-Assignment)
 
 ---
 
 ## 🧰 Tech Stack
 
-- **React 18**
+- **React 19**
 - **Tailwind CSS**
 - **Framer Motion**
 - **React Router DOM**
@@ -50,10 +50,6 @@ Two collapsible sidebars optimized for mobile experience with high z-index to fl
 
 ![Mobile Sidebar](/public/mobile-1.png)
 
-![Mobile Sidebar](/public/mobile-2.png)
-
-![Mobile Sidebar](/public/mobile-3.png)
-
 ![Mobile Sidebar](/public/mobile-4.png)
 
 ---
@@ -62,7 +58,6 @@ Two collapsible sidebars optimized for mobile experience with high z-index to fl
 
 Sidebars remain collapsible but maintain equal index for balance and layout fluidity.
 
-![Tablet Sidebar](/public/tablet-1.png)
 ![Tablet Sidebar](/public/tablet-2.png)
 ![Tablet Sidebar](/public/tablet-3.png)
 
@@ -73,22 +68,23 @@ Sidebars remain collapsible but maintain equal index for balance and layout flui
 Fully visible fixed sidebars on large screens for optimal workspace.
 
 ![Desktop Sidebar](/public/desktop-1.png)
+
 ![Desktop Sidebar](/public/desktop-2.png)
 
 ---
 
 ## ✨ Key Features & Evaluation Criteria
 
-| Criteria                                  | Implementation                                                      |
-| ----------------------------------------- | ------------------------------------------------------------------- |
-| 🎨 Color scheme, UI & theme (5/5)         | Clean, intuitive layout inspired by BeyondChats brand               |
-| 🧩 UI + Functionality replication (10/10) | Closely matched Intercom demo’s behavior and UX flow                |
-| 💻 Desktop layout (5/5)                   | Full-width UI with fixed layout and responsiveness                  |
-| 📱 Mobile Responsiveness (10/10)          | Fully adaptive sidebars, stacked layout, touch-friendly UX          |
-| ✨ Transitions & Animations (5/5)         | Smooth chat render animations, hover transitions                    |
-| 🧠 Intuitiveness (5/5)                    | Tone customization, multilingual AI responses, logical flow         |
-| 🌟 WOW Factor (5/5)                       | Rephrase options, emoji-friendly agent tone, real-time translations |
-| 🧹 Code Quality (10/10)                   | Clean modular components, semantic HTML, DRY logic, comments        |
+| Criteria                                  | Implementation                                               |
+| ----------------------------------------- | ------------------------------------------------------------ |
+| 🎨 Color scheme, UI & theme (5/5)         | Clean, intuitive layout.                                     |
+| 🧩 UI + Functionality replication (10/10) | Closely matched Intercom demo’s behavior and UX flow         |
+| 💻 Desktop layout (5/5)                   | Full-width UI with fixed layout and responsiveness           |
+| 📱 Mobile Responsiveness (10/10)          | Fully adaptive sidebars, stacked layout, touch-friendly UX   |
+| ✨ Transitions & Animations (5/5)         | Smooth chat render animations, hover transitions             |
+| 🧠 Intuitiveness (5/5)                    | Tone customization, multilingual AI responses, logical flow  |
+| 🌟 WOW Factor (5/5)                       | Rephrase options, emoji-friendly agent tone, Translations    |
+| 🧹 Code Quality (10/10)                   | Clean modular components, semantic HTML, DRY logic, comments |
 
 ---
 
