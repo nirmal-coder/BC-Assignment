@@ -42,6 +42,26 @@ Here’s a quick look at the app in action:
 
 ---
 
+## 📁 Folder Structure
+
+```bash
+beyondChats/
+├── public/                # Static assets and images
+├── src/
+│   ├── assets/            # Logos and illustrations
+│   ├── components/        # UI components split by layout (Body, Sidebars, etc.)
+│   ├── context/           # Context API providers
+│   ├── data/              # Mock data JSON
+│   ├── hooks/             # Custom hooks (e.g., swipe, width)
+│   ├── Pages/             # Page-level components (e.g., Inbox)
+│   ├── utils/             # Utility functions (time formatting, etc.)
+│   ├── App.jsx            # Root component
+│   └── main.jsx           # Entry point
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+```
+
 ## 📱 Responsiveness Strategy
 
 ### 📱 Mobile View (Collapsible Sidebars – High Z-Index)
