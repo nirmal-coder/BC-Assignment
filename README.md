@@ -48,9 +48,13 @@ Here’s a quick look at the app in action:
 
 Two collapsible sidebars optimized for mobile experience with high z-index to float above content.
 
-![Mobile Sidebar](/public/mobile-1.png)
+## ![Mobile Sidebar](/public/mobile-1.png)
 
 ![Mobile Sidebar](/public/mobile-4.png)
+
+---
+
+---
 
 ---
 
@@ -58,7 +62,10 @@ Two collapsible sidebars optimized for mobile experience with high z-index to fl
 
 Sidebars remain collapsible but maintain equal index for balance and layout fluidity.
 
-![Tablet Sidebar](/public/tablet-2.png)
+## ![Tablet Sidebar](/public/tablet-2.png)
+
+---
+
 ![Tablet Sidebar](/public/tablet-3.png)
 
 ---
@@ -67,7 +74,9 @@ Sidebars remain collapsible but maintain equal index for balance and layout flui
 
 Fully visible fixed sidebars on large screens for optimal workspace.
 
-![Desktop Sidebar](/public/desktop-1.png)
+## ![Desktop Sidebar](/public/desktop-1.png)
+
+---
 
 ![Desktop Sidebar](/public/desktop-2.png)
 
