@@ -1,5 +1,5 @@
 import "./App.css";
-import Inbox from "./pages/Inbox";
+import Inbox from "../src/Pages/Inbox";
 
 function App() {
   let lastWidth = window.innerWidth;
