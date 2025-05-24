@@ -4,8 +4,11 @@ import agentImg from "../../assets/agent-logo.svg";
 import "./index.css";
 import { useAiSidebar } from "../../context/AiSidebarContext";
 import { useScreenWidth } from "../../hooks/useScreenWidth";
+import { motion } from "motion/react";
 
 import { PulseLoader } from "react-spinners";
+import { MdOutlineTouchApp } from "react-icons/md";
+import { GiClick } from "react-icons/gi";
 
 const ListOfChat = () => {
   const {
@@ -24,6 +27,8 @@ const ListOfChat = () => {
   const { setIsAiOpen } = useAiSidebar();
   const width = useScreenWidth();
   const chatContainerRef = useRef(null);
+  const [showTouch, setShowTouch] = useState(true);
+  const [showTouchCopilotBtn, setshowTouchCopilotBtn] = useState(true);
 
   const firstLetter = name ? name.charAt(0).toUpperCase() : "U";
 
@@ -34,6 +39,7 @@ const ListOfChat = () => {
     const selection = window.getSelection();
     selection.removeAllRanges();
     selection.addRange(range);
+    setShowTouch(false);
     setUserMsg((prev) => ({
       ...prev,
       [id]: {
@@ -50,6 +56,7 @@ const ListOfChat = () => {
 
   const handleOpenCopilot = (event) => {
     const eventId = event.target.id;
+    setshowTouchCopilotBtn(false);
     if (width < 1024) {
       setIsAiOpen(true);
     }
@@ -93,7 +100,7 @@ const ListOfChat = () => {
         if (each.sender === "user") {
           return (
             <div
-              className="w-10/12 p-2 my-3 mb-6 animate-fade-in-up "
+              className="w-10/12 p-2 my-3 mb-6 animate-fade-in-up"
               key={each.text}
             >
               <div className="p-2 bg-gray-300 text-gray-900 rounded-lg relative ml-[32px] cursor-pointer transition-all duration-100">
@@ -119,16 +126,56 @@ const ListOfChat = () => {
                   </span>
                 )}
                 {each.btnShow && (
-                  <button
-                    className="gradient-button absolute bottom-[-45px] right-[10px] transition-transform duration-150 active:scale-75 text-gray-800"
-                    onClick={handleOpenCopilot}
-                    id={each.id}
-                  >
-                    Ask Copilot
-                  </button>
+                  <>
+                    <button
+                      className="gradient-button absolute bottom-[-45px] right-[10px] transition-transform duration-150 active:scale-75 text-gray-800"
+                      onClick={handleOpenCopilot}
+                      id={each.id}
+                    >
+                      Ask Copilot
+                      {showTouchCopilotBtn && (
+                        <motion.div
+                          initial={{ y: 300, opacity: 0, scale: 0.8 }}
+                          animate={{ y: 0, opacity: 1, scale: [0.8, 1.2, 0.8] }}
+                          transition={{
+                            y: { type: "spring", stiffness: 60 },
+                            opacity: { duration: 0.5 },
+                            scale: {
+                              duration: 1.2,
+                              repeat: Infinity,
+                              repeatType: "loop",
+                              ease: "easeInOut",
+                            },
+                          }}
+                          className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-2xl"
+                        >
+                          <GiClick className="text-gray-700 animate-pulse-blink" />
+                        </motion.div>
+                      )}
+                    </button>
+                  </>
                 )}
               </div>
               <p className="text-gray-600 text-xs text-right">{each.time}</p>
+              {showTouch && (
+                <motion.div
+                  initial={{ y: 300, opacity: 0, scale: 0.8 }}
+                  animate={{ y: 0, opacity: 1, scale: [0.8, 1.2, 0.8] }}
+                  transition={{
+                    y: { type: "spring", stiffness: 60 },
+                    opacity: { duration: 0.5 },
+                    scale: {
+                      duration: 1.2,
+                      repeat: Infinity,
+                      repeatType: "loop",
+                      ease: "easeInOut",
+                    },
+                  }}
+                  className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-2xl"
+                >
+                  <GiClick className="text-gray-700 animate-pulse-blink" />
+                </motion.div>
+              )}
             </div>
           );
         } else if (each.sender === "agent") {

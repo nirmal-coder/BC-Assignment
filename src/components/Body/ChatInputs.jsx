@@ -4,10 +4,13 @@ import { IoMdSend } from "react-icons/io";
 import { MdMessage, MdOutlineGTranslate } from "react-icons/md";
 import { useActiveChat } from "../../context/ActiveChatContext";
 import { v4 as uuidv4 } from "uuid";
+import { GiClick } from "react-icons/gi";
+import { motion } from "motion/react";
 
 const ChatInputs = () => {
   const [showLanguages, setShowLanguages] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
+  const [showTouch, setShowTouch] = useState(false);
   const languages = [
     "english",
     "tamil",
@@ -135,6 +138,14 @@ const ChatInputs = () => {
     }
   }, [mainInput]);
 
+  useEffect(() => {
+    if (mainInput) {
+      setShowTouch(true);
+    } else {
+      setShowTouch(false);
+    }
+  }, [mainInput]);
+
   return (
     <>
       <div className="w-11/12 mx-auto  shadow-lg rounded-lg bg-white p-3 border-2 border-gray-200 mb-3">
@@ -218,9 +229,28 @@ const ChatInputs = () => {
           />
           <button
             onClick={handleMainInput}
-            className="transition-transform duration-150 active:scale-75 text-gray-800"
+            className="transition-transform duration-150 active:scale-75 text-gray-800 relative text-lg"
           >
             <IoMdSend className="text-lg lg:text-2xl" />
+            {showTouch && (
+              <motion.div
+                initial={{ y: 300, opacity: 0, scale: 0.8 }}
+                animate={{ y: 0, opacity: 1, scale: [0.8, 1.2, 0.8] }}
+                transition={{
+                  y: { type: "spring", stiffness: 60 },
+                  opacity: { duration: 0.5 },
+                  scale: {
+                    duration: 1.2,
+                    repeat: Infinity,
+                    repeatType: "loop",
+                    ease: "easeInOut",
+                  },
+                }}
+                className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-2xl"
+              >
+                <GiClick className="text-gray-700 animate-pulse-blink text-2xl" />
+              </motion.div>
+            )}
           </button>
         </div>
       </div>
