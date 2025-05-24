@@ -15,7 +15,7 @@ const SideBarAi = () => {
       <div
         className={`${
           !isAiOpen ? "w-0 opacity-0" : "w-9/12"
-        } scroll-container h-screen border-l-2 flex flex-col justify-between items-center   rounded-md overflow-y-scroll fixed top-0 right-0 bottom-0 z-20 transition-all duration-500 bg-gradient-to-b  from-white via-blue-50 to-purple-50
+        } scroll-container h-screen-dvh border-l-2 flex flex-col justify-between items-center   rounded-md overflow-y-scroll fixed top-0 right-0 bottom-0 z-20 transition-all duration-500 bg-gradient-to-b  from-white via-blue-50 to-purple-50
         
         md:w-30% md:z-1 md:rounded-none md:relative`}
       >
