@@ -181,40 +181,42 @@ const ChatInputs = () => {
               )}
               {showLanguages && (
                 <div
-                  className="fixed top-0 right-0 bottom-0 left-0 bg-transparent z-1"
+                  className="fixed top-0 right-0 bottom-0 left-0 bg-transparent z-10"
                   onClick={handleLanguage}
                 ></div>
               )}
             </div>
-            <button
-              onClick={handleMenu}
-              aria-label="Toggle Menu"
-              className="focus:outline-none transition-transform duration-150 active:scale-75 text-gray-800"
-            >
-              <HiDotsHorizontal />
-            </button>
-            {showMenu && (
-              <div className="absolute bottom-full mb-2 right-0 bg-white border border-gray-300 rounded-md shadow-lg z-50 w-40">
-                <ul>
-                  {menus.map((menu) => (
-                    <li
-                      key={menu.id}
-                      id={menu.id}
-                      className="px-4 py-2 text-sm hover:bg-gray-100 cursor-pointer capitalize"
-                      onClick={handleMenuFun}
-                    >
-                      {menu.name}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {showMenu && (
-              <div
-                className="fixed top-0 right-0 bottom-0 left-0 bg-transparent z-1"
+            <div className="relative">
+              <button
                 onClick={handleMenu}
-              ></div>
-            )}
+                aria-label="Toggle Menu"
+                className="focus:outline-none transition-transform duration-150 active:scale-75 text-gray-800"
+              >
+                <HiDotsHorizontal />
+              </button>
+              {showMenu && (
+                <div className="absolute bottom-full mb-2 right-0 bg-white border border-gray-300 rounded-md shadow-lg z-50 w-40">
+                  <ul>
+                    {menus.map((menu) => (
+                      <li
+                        key={menu.id}
+                        id={menu.id}
+                        className="px-4 py-2 text-sm hover:bg-gray-100 cursor-pointer capitalize"
+                        onClick={handleMenuFun}
+                      >
+                        {menu.name}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {showMenu && (
+                <div
+                  className="fixed top-0 right-0 bottom-0 left-0 bg-transparent z-20"
+                  onClick={handleMenu}
+                ></div>
+              )}
+            </div>
           </div>
         </div>
         <div className="w-full min-h-12 flex items-center justify-between border-0">
